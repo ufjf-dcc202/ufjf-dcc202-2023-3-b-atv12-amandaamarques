@@ -34,6 +34,6 @@ function preencheLista(lista, estoqueDaPessoa){
         const li = document.createElement('li');
         li.textContent = `${monte.tipo}: ${monte.qtd}`;
         lista.append(li);
-    } 
+    }
 }
 
